@@ -1,0 +1,126 @@
+<html lang="en"><!--default language of the document content --><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link href="css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="css/boilerplate.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!--character encoding for the document (Unicode) -->
+    <script>
+        function changed() {
+            var xDivd = document.getElementById('serviced');
+            var xDivdt = document.getElementById('servicedtext1');
+
+            if (xDivd.style.height == ''){
+                xDivd.style.height = '400px';
+                xDivdt.style.display = 'block';  
+            }else{ 
+                xDivd.style.height = '';
+                xDivdt.style.display = 'none';
+            }
+        }
+
+        function changep() {
+            var xDivp = document.getElementById('servicep');
+            var xDivpt = document.getElementById('servicedtext2');
+
+            if (xDivp.style.height == ''){
+                xDivp.style.height = '400px';
+                xDivpt.style.display = 'block'; 
+            }else{ 
+                xDivp.style.height = '';
+                xDivpt.style.display = 'none';
+            }
+        }
+
+        function changec() {
+            var xDivc = document.getElementById('servicec');
+            var xDivct = document.getElementById('servicedtext3');
+
+            if (xDivc.style.height == ''){
+                xDivc.style.height = '400px';
+                xDivct.style.display = 'block'; 
+            }else{ 
+                xDivc.style.height = '';
+                xDivct.style.display = 'none';
+            }
+        }
+
+    </script>
+
+    <title>Swebb - Services</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--web page title -->
+    </head>
+    <body>
+        <!--Write web page content and markup within the 'body' tags -->
+        <ul class="nav">
+            <div class="logo"><a href="index.html"><img src="images/logotest.png"></a></div>
+            <div class="quote"><span class="blue">Design, Planning</span> And <span class="blue">Construction</span> Under One Roof.</div>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html"><span class="blue">Services</span></a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <main>
+            <div class=wrapper>
+            <div class="headerimage"><a href="index.html"><img src="images/logoheadertest.png"></a></div>
+            <div class="heading">Services</div>
+            <div align="center" class="information">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam convallis nisl metus, sit amet sagittis risus vulputate ac. Vivamus vestibulum erat pellentesque, egestas urna nec, porttitor ipsum. Donec non elit blandit, tincidunt quam quis, lobortis mi. Cras leo risus, porta at condimentum et.<br><br>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam convallis nisl metus, sit amet sagittis risus vulputate ac. Vivamus vestibulum erat pellentesque, egestas urna nec, porttitor ipsum. Donec non elit blandit, tincidunt quam quis, lobortis mi. Cras leo risus, porta at condimentum et.
+
+                </p>
+            </div>
+            
+            <br>
+            <div align="center" id="serviced" class="serviced">
+                <a style="cursor: pointer"><div  class="servicetitle" onclick="changed()">Design</div></a>
+                <div class="servicedtext" id="servicedtext1"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam convallis nisl metus, sit amet sagittis risus vulputate ac. Vivamus vestibulum erat pellentesque, egestas urna nec, porttitor ipsum. Donec non elit blandit, tincidunt quam quis, lobortis mi. Cras leo risus, porta at condimentum et.<br><br>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam convallis nisl metus, sit amet sagittis risus vulputate ac. Vivamus vestibulum erat pellentesque, egestas urna nec, porttitor ipsum. Donec non elit blandit, tincidunt quam quis, lobortis mi. Cras leo risus, porta at condimentum et.
+                    </p></div>
+            </div>
+            <div align="center" id="servicep" class="servicep">
+                <a style="cursor: pointer"><div class="servicetitle"onclick="changep()">Planning</div></a>
+                <div class="servicedtext" id="servicedtext2"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam convallis nisl metus, sit amet sagittis risus vulputate ac. Vivamus vestibulum erat pellentesque, egestas urna nec, porttitor ipsum. Donec non elit blandit, tincidunt quam quis, lobortis mi. Cras leo risus, porta at condimentum et.<br><br>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam convallis nisl metus, sit amet sagittis risus vulputate ac. Vivamus vestibulum erat pellentesque, egestas urna nec, porttitor ipsum. Donec non elit blandit, tincidunt quam quis, lobortis mi. Cras leo risus, porta at condimentum et.
+                    </p></div>
+            </div>
+            <div align="center" id="servicec" class="servicec">
+                <a style="cursor: pointer"><div class="servicetitle"onclick="changec()">Construction</div>
+                </a>
+                <div class="servicedtext" id="servicedtext3"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam convallis nisl metus, sit amet sagittis risus vulputate ac. Vivamus vestibulum erat pellentesque, egestas urna nec, porttitor ipsum. Donec non elit blandit, tincidunt quam quis, lobortis mi. Cras leo risus, porta at condimentum et.<br><br>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam convallis nisl metus, sit amet sagittis risus vulputate ac. Vivamus vestibulum erat pellentesque, egestas urna nec, porttitor ipsum. Donec non elit blandit, tincidunt quam quis, lobortis mi. Cras leo risus, porta at condimentum et.
+                    </p></div>
+            </div>
+            
+            <div align="center" class="information">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam convallis nisl metus, sit amet sagittis risus vulputate ac. Vivamus vestibulum erat pellentesque, egestas urna nec, porttitor ipsum. Donec non elit blandit, tincidunt quam quis, lobortis mi. Cras leo risus, porta at condimentum et.<br><br>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam convallis nisl metus, sit amet sagittis risus vulputate ac. Vivamus vestibulum erat pellentesque, egestas urna nec, porttitor ipsum. Donec non elit blandit, tincidunt quam quis, lobortis mi. Cras leo risus, porta at condimentum et.
+
+                </p>
+            </div>
+
+            <br>
+            <br>
+            <br>
+
+            
+            </div>
+        </main>
+        <!--Close main page content -->  
+
+        <footer>
+            <div class="left">
+                <small>©Swebb Design & Build</small>
+            </div>
+            <div class="center">
+                <small>Created by <a href="mailto:jamholliday@live.com?Subject=Website%20Request" target="_top">James Holliday</a></small>
+            </div>
+            <div class="right">
+                <small>All Rights Reserved</small>
+            </div>
+        </footer>
+
+        <!--Close 'wrapper' div -->
+
+        <!--Close 'body' -->
+
+
+    </body><div id="coFrameDiv" style="height:0px;display:none;"><iframe id="coToolbarFrame" src="./index_files/placeholder.html" style="height:0px;width:100%;display:none;"></iframe></div></html>
